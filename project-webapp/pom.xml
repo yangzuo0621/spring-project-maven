@@ -34,11 +34,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <attachClasses>true</attachClasses><!-- 把class打包jar作为附件 -->
-                    <archiveClasses>false</archiveClasses><!-- 把class打包jar -->
-                </configuration>
             </plugin>
         </plugins>
     </build>
